@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 1px;
+}
+/* -------------------- Header --------------------- */
+body{
+    background-color: 	#e2dad3;
+}
+header{
+    background-color: #c0a788;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+header .container{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-logo a{
+    display:flex;
+}
+.container-logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-logo .logo{
+    width: 80px;
+}
+.container-menu{
+    margin-right: 50px;
+}
+.container-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.container-menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 8px;
+    color: #cecece;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background.5s;
+    border-radius: 20px;
+}
+.container-menu ul li a:hover{
+    background-color: #b36d39;
+    color: #53311d;
+    border-radius: 20px;
+}
+/* ----------------- Content Home ---------------- */
+main{
+    background-color: #bcbcbc;
+    margin: auto;
+    padding-top: 10px;
+
+    /* max-width: 1200px; */
+}
+.main-container{
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    background-image: url("../images/kitchen/kitchen-interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container-home-office{
+    width: 280px;
+    background-color: #cececedd;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    float: right;
+}
+.mb{
+    margin: 20px;
+    font-weight: bold;
+    color: #53311d;
+}
+/* ----------------- Content Project ---------------- */
+.project{
+    margin: auto;
+    max-width: 1200px;
+    background-color: #c0a788;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.project-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #53311d;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #b36d39 2px 2px 6px;
+}
+/* ----------------- IMG Project ---------------- */
+.img-line{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-line li{
+    list-style: none;
+}
+.img-line a img{
+    display: flex;
+}
+.img-line img{
+    width: 250px;
+    height: 300px;
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: #53311d 5px 5px 8px;
+}
+/* ----------------- Footer ---------------- */
+footer{
+    background-color: #c0a788;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+.signature-footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signature{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.signature h3{
+    font-family: 'MS Madi', sans-serif;
+    font-size: 60px;
+    color: #53311d;
+}
+.signature p{
+    color: #53311d;
+    font-weight: bold;
+}
+.icons{
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.icons ul li a img{
+    display: flex;
+    width: 35px;
+}
